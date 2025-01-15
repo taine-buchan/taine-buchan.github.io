@@ -41,7 +41,7 @@ a {
 }
 
 .blog-container {
-  line-height: 1.4;
+  line-height: 1.2;
 }
 
 .blog-container ul {
@@ -68,4 +68,15 @@ footer {
   padding-top: 8px;
   text-align: center;
   border-top: 3px solid black;
+}
+
+.blog-post {
+  margin-top: 40px;
+}
+
+.self-portrait {
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 30px;
 }
