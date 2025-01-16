@@ -13,20 +13,38 @@ body {
   max-width: 1400px;
   min-height: 100vh;
   margin: auto;
-  padding: 20px;
+  padding: 1rem 1rem 0rem;
   display: flex;
   flex-direction: column;
+  line-height: 1.4;
 }
 
-h1 {
-  font-size: 1rem;
+h3 {
+  color: rgba(0, 0, 0, 0.492);
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+img {
+  opacity: 90%;
+}
+
+.bold-text {
+  font-weight: bold;
 }
 
 .header-nav-container {
   display: flex;
-  justify-content: start;
-  align-items: center;
-  gap: 1rem;
+  justify-content: space-between;
+  gap: 2rem;
+  margin-bottom: 6rem;
 }
 
 .header-nav-container ul {
@@ -35,20 +53,28 @@ h1 {
   gap: 1rem;
 }
 
-a {
-  color: black;
-  text-decoration: none;
+.highlight {
+  padding: 0.4rem;
+  transition: background-color 0.3s ease;
+}
+
+.highlight:hover {
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+
+.highlight:hover a {
+  color: white;
 }
 
 .blog-container {
-  line-height: 1.2;
+  max-width: 70vw;
+  margin: auto auto;
 }
 
 .blog-container ul {
   display: flex;
   flex-direction: column;
-  gap: 30px;
-  margin-top: 40px;
   font-size: 1.4rem;
 }
 
@@ -56,27 +82,60 @@ a {
   border-top: 3px solid black;
   display: flex;
   justify-content: space-between;
-  gap: 20px;
+  line-height: 1;
 }
 
-.blog-container h1 {
-  font-size: 2rem;
-}
-
-footer {
-  margin-top: auto;
-  padding-top: 8px;
-  text-align: center;
-  border-top: 3px solid black;
+.blog-container p {
+  text-align: right;
+  font-size: 1rem;
 }
 
 .blog-post {
-  margin-top: 40px;
-}
-
-.self-portrait {
-  max-width: 50%;
+  margin-bottom: 100px;
+  display: block;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 30px;
+}
+
+.collage {
+  margin-top: 8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.collage img {
+  max-width: 30vw;
+}
+
+#me {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact {
+  text-align: center;
+}
+
+footer {
+  padding: 0.5rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: auto;
+  background-color: rgb(0, 0, 0);
+}
+
+footer p {
+  font-size: 0.8rem;
+  color: white;
+}
+
+.social-container {
+  display: flex;
+  gap: 1rem;
+}
+
+.social {
+  color: white;
 }

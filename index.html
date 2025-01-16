@@ -4,18 +4,26 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="styles/main.css" rel="stylesheet" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
     <title>Taine Buchan Blog</title>
   </head>
   <body>
     <section class="header-nav-container">
       <header>
-        <h1>Taine Buchan Blog</h1>
+        <p>Taine Buchan Blog</p>
       </header>
       <nav>
         <ul>
-          <li><a href="index.html">home</a></li>
-          <li><a href="blog/about-me.html">about</a></li>
-          <li><a href="#contact">contact</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="blog/about-me.html">About</a></li>
+          <li><a href="/blog/contact.html">Contact</a></li>
         </ul>
       </nav>
     </section>
@@ -24,24 +32,55 @@
       <section class="blog-container">
         <ul>
           <h1>2024</h1>
-          <li>
-            <a href="#blogdate">Today is gonna be the day.</a>
-            <p>15th of Jan, 2024</p>
+          <li class="highlight">
+            <a href="/blog/03-css-concepts.html">My learning path.</a>
+            <p>16th of Jan, 2024</p>
           </li>
-          <li>
-            <a href="#blogdate">That they're gonna throw it back. </a>
-            <p>12th of Jan, 2024</p>
+          <li class="highlight">
+            <a href="/blog/02-socks-as-classes.html">Socks as classes.</a>
+            <p>16th of Jan, 2024</p>
           </li>
-          <li>
+          <li class="highlight">
             <a href="/blog/about-me.html">Hey, thanks for stopping by!</a>
-            <p>15th of Jan, 2024</p>
+            <p>13th of Jan, 2024</p>
           </li>
         </ul>
       </section>
     </main>
 
-    <footer>
-      <a href="jim.jpeg" target="_blank"> <h1>This is the end.</h1></a>
+    <section class="collage">
+      <img src="/images/Me n band.png" alt="Me and the band" width="300px" />
+      <img
+        src="/images/bread.jpeg"
+        alt="Japanese load made by me"
+        width="180px"
+      />
+      <img
+        src="/images/sketch.jpeg"
+        alt="Flatmate painting of me"
+        width="100px"
+      />
+    </section>
+
+    <footer id="footer">
+      <a href="/images/jim.jpeg" target="_blank"> <p>© Taine Buchan Blog</p></a>
+      <div class="social-container">
+        <a
+          href="https://github.com/taine-buchan"
+          target="_blank"
+          class="social"
+        >
+          <i class="fab fa-github"></i>
+        </a>
+
+        <a
+          href="https://www.linkedin.com/in/taine-buchan-275697bb/"
+          target="_blank"
+          class="social"
+        >
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </div>
     </footer>
   </body>
 </html>
