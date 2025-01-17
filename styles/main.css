@@ -99,6 +99,16 @@ nav ul {
   margin-bottom: 1rem;
 }
 
+#framework {
+  padding-left: 2rem;
+}
+
+#framework li {
+  font-size: 0.8rem;
+  line-height: 1.6;
+  list-style-type: circle;
+}
+
 .collage {
   margin-top: 8rem;
   display: flex;
