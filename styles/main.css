@@ -10,10 +10,10 @@ html {
 
 body {
   font-family: Helvetica, sans-serif;
-  max-width: 100%;
+  max-width: 100vw;
   min-height: 100vh;
   margin: auto;
-  padding: 1rem 1rem 0rem;
+  padding: 1rem 2rem 0rem;
   display: flex;
   flex-direction: column;
   overflow-x: hidden;
@@ -52,6 +52,10 @@ nav ul {
   gap: 1rem;
 }
 
+.year {
+  margin-bottom: 1rem;
+}
+
 .highlight {
   padding: 0.4rem 0.8rem;
   transition: background-color 0.3s ease;
@@ -79,15 +83,17 @@ nav ul {
 }
 
 .blog-container li {
-  border-top: 3px solid black;
+  border-top: 1px solid black;
   display: flex;
   justify-content: space-between;
-  line-height: 1.2;
 }
 
 .blog-container p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: right;
-  font-size: 1rem;
+  font-size: 0.8rem;
 }
 
 .blog-post {
