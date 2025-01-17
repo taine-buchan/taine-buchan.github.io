@@ -99,6 +99,7 @@ nav ul {
   padding-bottom: 4rem;
   max-width: 80vw;
   background-color: rgb(255, 255, 255);
+  overflow: hidden;
 }
 
 #me {
