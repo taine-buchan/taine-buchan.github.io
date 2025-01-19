@@ -19,10 +19,6 @@ body {
   overflow-x: hidden;
 }
 
-h3 {
-  color: rgba(0, 0, 0, 0.492);
-}
-
 ul {
   list-style-type: none;
 }
@@ -38,6 +34,17 @@ img {
 
 .bold-text {
   font-weight: bold;
+}
+
+.learning-path section {
+  padding-bottom: 1.6rem;
+}
+
+.learning-path h3,
+.learning-path h2,
+.learning-path li,
+.learning-path p {
+  padding-bottom: 0.6rem;
 }
 
 header {
@@ -103,7 +110,7 @@ nav ul {
   align-self: center;
   padding-top: 4rem;
   padding-bottom: 4rem;
-  max-width: 80vw;
+  max-width: 70vw;
   background-color: rgb(255, 255, 255);
   overflow: hidden;
 }
