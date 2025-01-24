@@ -93,6 +93,7 @@ nav ul {
   border-top: 1px solid black;
   display: flex;
   justify-content: space-between;
+  gap: 1rem;
 }
 
 .blog-container p {
@@ -113,15 +114,11 @@ nav ul {
   max-width: 70vw;
   background-color: rgb(255, 255, 255);
   overflow: hidden;
+  line-height: 1.5;
 }
 
 #me {
   margin-bottom: 1rem;
-}
-
-#framework li {
-  font-size: 0.8rem;
-  line-height: 1.6;
 }
 
 .back-arrow {
