@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Why I wanted to do this</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="../styles/main.css" rel="stylesheet" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <p>Taine Buchan Blog</p>
+      <nav>
+        <ul>
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/blog/about-me.html">About</a></li>
+          <li><a href="/blog/contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="blog-post">
+      <div class="learning-path">
+        <!-- Reflection 1: Blocked on a Simple Problem -->
+        <section class="question">
+          <h2>Blocked on a Simple Problem</h2>
+          <p><strong>What was the problem?</strong></p>
+          <p>
+            In the first challenge of javascript-kata, I didn't quite understand
+            object manipulation.
+          </p>
+
+          <p><strong>What problem-solving techniques did you use?</strong></p>
+          <p>I decided that I would go back and look at resources online.</p>
+
+          <p><strong>How did you feel throughout the process?</strong></p>
+          <p>
+            It's really frustrating when you almost can read what's going on but
+            you head over to write a code block and it becomes a mental block.
+          </p>
+
+          <p><strong>What did you learn?</strong></p>
+          <p>
+            If I don't understand something, look back, focus on the important
+            bits, and simplify the question by picking out key words like
+            "object, property, key, value". Then write out the changes clearly.
+          </p>
+        </section>
+
+        <!-- Reflection 2: Elegantly Solved a Problem -->
+        <section class="question">
+          <h2>Elegantly Solved a Problem</h2>
+          <p><strong>What was the problem?</strong></p>
+          <p>
+            I'm unsure if it was elegant, but I was having an issue with
+            flipflop where my condition was returning the first iterable.
+          </p>
+
+          <p><strong>What problem-solving techniques did you use?</strong></p>
+          <p>
+            After what seemed like eternity, I decided it was best to reach out
+            to someone and ask for help. Joeseph thankfully ran me through the
+            material of the challenge and I was able to find the correct method.
+          </p>
+
+          <p><strong>How did you feel throughout the process?</strong></p>
+          <p>
+            Frustrated that my time was slowly eaten away and I had no answer.
+          </p>
+
+          <p><strong>What did you learn?</strong></p>
+          <p>
+            It's better to ask if I've been spending too much time on a problem.
+          </p>
+        </section>
+
+        <!-- Reflection 3: Confidence with Problem-Solving Techniques -->
+        <section class="question">
+          <h2>Reflect on Problem-Solving Techniques</h2>
+          <p>
+            <strong
+              >Reflect on how confident you feel using each of these
+              problem-solving techniques/processes:</strong
+            >
+          </p>
+          <ul>
+            <li>Pseudocode: 5/20</li>
+            <li>Trying something: 6/10</li>
+            <li>Rubber ducky method: 5/10</li>
+            <li>Reading error messages: 6/10</li>
+            <li>Console.logging: 8/10</li>
+            <li>Googling: 10/10</li>
+            <li>Asking your peers for help: 5/10</li>
+          </ul>
+        </section>
+
+        <a href="/index.html" class="back-arrow"> ← Back </a>
+      </div>
+    </section>
+
+    <footer id="footer">
+      <a href="/images/jim.jpeg" target="_blank">
+        <p>© Taine Buchan Blog</p>
+      </a>
+      <div class="social-container">
+        <a
+          href="https://github.com/taine-buchan"
+          target="_blank"
+          class="social"
+        >
+          <i class="fab fa-github"></i>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/taine-buchan-275697bb/"
+          target="_blank"
+          class="social"
+        >
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>
