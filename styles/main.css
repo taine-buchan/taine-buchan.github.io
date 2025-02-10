@@ -79,7 +79,7 @@ nav ul {
 
 .blog-container {
   padding-top: 4rem;
-  max-width: 70vw;
+  max-width: 80vw;
   margin: auto auto;
 }
 
@@ -101,7 +101,9 @@ nav ul {
   justify-content: center;
   align-items: center;
   text-align: right;
-  font-size: 0.8rem;
+  text-wrap: nowrap;
+  opacity: 60%;
+  font-size: 1rem;
 }
 
 .blog-post {
@@ -114,6 +116,16 @@ nav ul {
   max-width: 70vw;
   background-color: rgb(255, 255, 255);
   overflow: hidden;
+}
+
+@media only screen and (max-width: 650px) {
+  .blog-container ul {
+    font-size: 1.2rem;
+  }
+
+  .blog-container p {
+    font-size: 0.8rem;
+  }
 }
 
 .blog-post p {
@@ -142,12 +154,6 @@ nav ul {
   max-height: 350px;
   margin-left: auto;
   margin-right: auto;
-}
-
-@media only screen and (max-width: 600px) {
-  .collage {
-    flex-direction: column;
-  }
 }
 
 .contact {
