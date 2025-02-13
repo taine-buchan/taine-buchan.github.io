@@ -1,4 +1,4 @@
-let blogDate = document.getElementById('date')
+/*let blogDate = document.getElementById('date')
 let body = document.querySelector('body')
 
 function generateDate() {
@@ -30,3 +30,17 @@ function generateDate() {
 }
 
 generateDate()
+*/
+
+let lastScrollY = 0
+const navBar = document.querySelector('header')
+window.addEventListener('scroll', () => {
+  const currentScrollY = window.scrollY
+  if (currentScrollY > lastScrollY) {
+    navBar.classList.add('hidden')
+  } else {
+    navBar.classList.remove('hidden')
+  }
+
+  lastScrollY = currentScrollY
+})
