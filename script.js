@@ -34,11 +34,16 @@ generateDate()
 
 let lastScrollY = 0
 const navBar = document.querySelector('header')
+
 window.addEventListener('scroll', () => {
   const currentScrollY = window.scrollY
+
   if (currentScrollY > lastScrollY) {
     navBar.classList.add('hidden')
   } else {
+    navBar.classList.remove('hidden')
+  }
+  if (currentScrollY === 0) {
     navBar.classList.remove('hidden')
   }
 
