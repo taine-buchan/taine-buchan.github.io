@@ -59,7 +59,7 @@ header {
   padding: 1rem 2rem;
   background-color: rgb(0, 0, 0);
   position: fixed;
-  transition: 0.2s ease transform;
+  transition: 0.3s ease transform;
   z-index: 999;
   font-size: 0.8rem;
 }

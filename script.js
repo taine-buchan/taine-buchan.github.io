@@ -32,18 +32,22 @@ function generateDate() {
 generateDate()
 */
 
-let lastScrollY = 0
+let lastScrollY = window.scrollY
 const navBar = document.querySelector('header')
 
 window.addEventListener('scroll', () => {
   const currentScrollY = window.scrollY
 
   if (currentScrollY > lastScrollY) {
+    // Scrolling down
     navBar.classList.add('hidden')
-  } else {
+  } else if (currentScrollY < lastScrollY) {
+    // Scrolling up
     navBar.classList.remove('hidden')
   }
-  if (currentScrollY === 0) {
+
+  // Ensure navbar is always visible when at the top
+  if (currentScrollY <= 0) {
     navBar.classList.remove('hidden')
   }
 
